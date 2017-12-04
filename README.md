@@ -4,7 +4,7 @@
 npm install yarn -g
 yarn start or yarn build
 ```
-Live site: https://github.com/globalroo/uk-mps/
+Live site: https://globalroo.github.io/uk-mps/
 
 ## Brief description
 
@@ -16,5 +16,5 @@ Motivation? I'm listening to https://www.amazon.co.uk/Quantum-Memory-Power-Impro
 
 DISCLAIMER: This is VERY work in progress - literally Sunday evening in front of TV, the utils.js has the stitching code to get the images and sew the data together. At the moment, it's using the parsed data I've pulled from the servers locally to prevent a huge number of requests going out. It's probably going to end up being a carousel of MPs displayed one at a time for the memory game.
 
-As there is no commonality other than names between the old and the new endpoints, I've had to use them.
+As there is no commonality other than names between the old and the new endpoints, I've had to use them (the names).
 Thankfully they seem to match exactly between sites.

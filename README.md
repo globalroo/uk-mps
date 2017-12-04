@@ -2,8 +2,9 @@
 
 ```sh
 npm install yarn -g
-yarn start
+yarn start or yarn build
 ```
+Live site: https://github.com/globalroo/uk-mps/
 
 ## Brief description
 

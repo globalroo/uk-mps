@@ -13,7 +13,7 @@ Read the story about how all these images came about here: https://pds.blog.parl
 
 Motivation? I'm listening to https://www.amazon.co.uk/Quantum-Memory-Power-Improve-Champion/dp/0743528662 at the moment, and one of the first chapters is about memorising names and faces. I figured it would be good to do this with our members of parliament, then I saw the APIs and thought it would be fun to combine two activities.
 
-DISCLAIMER: This is VERY work in progress, the utils.js has the stitching code to get the images and sew the data together. At the moment, it's using the parsed data I've pulled once locally. It's probably going to end up being a carousel of MPS.
+DISCLAIMER: This is VERY work in progress - literally Sunday evening in front of TV, the utils.js has the stitching code to get the images and sew the data together. At the moment, it's using the parsed data I've pulled from the servers locally to prevent a huge number of requests going out. It's probably going to end up being a carousel of MPs displayed one at a time for the memory game.
 
 As there is no commonality other than names between the old and the new endpoints, I've had to use them.
 Thankfully they seem to match exactly between sites.

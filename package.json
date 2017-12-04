@@ -1,6 +1,7 @@
 {
   "name": "uk-mps",
   "homepage": "https://globalroo.github.io/uk-mps/",
+  "license": "MIT",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

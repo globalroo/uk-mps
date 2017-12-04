@@ -20,8 +20,8 @@ class MPImage extends Component {
 }
 
 const MPData = ({ id, data }) => {
-	//TODO: const { additionalName, constituency, gender, homePage, party, twitter } = data;
-	//TODO: Separate into componen file
+	//TODO: add more meta - const { additionalName, constituency, gender, homePage, party, twitter } = data;
+	//TODO: Separate into component file
 	const { constituency, party } = data;
 	const partyText = party._value;
 	const { label } = constituency;

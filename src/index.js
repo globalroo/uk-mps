@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'src/index.css';
-import App from 'src/App';
-import registerServiceWorker from 'src/registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "src/index.css";
+import App from "src/App";
+import registerServiceWorker from "src/registerServiceWorker";
 
 // This image data was acquired from the excellent https://beta.parliament.uk/
 // Read the story about how the images came about here: https://pds.blog.parliament.uk/2017/07/21/mp-official-portraits-open-source-images/
@@ -14,5 +14,5 @@ import registerServiceWorker from 'src/registerServiceWorker';
 
 import { members } from "data/members";
 
-ReactDOM.render(<App members={members} />, document.getElementById('root'));
+ReactDOM.render(<App members={members} />, document.getElementById("root"));
 registerServiceWorker();

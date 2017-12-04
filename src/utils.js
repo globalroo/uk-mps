@@ -19,9 +19,7 @@ const getValueFromKeyPair = (keypairArr = []) => {
 };
 
 export const getDataFromParliament = async name => {
-	const response = await fetch(
-		encodeURI(`${PARLIAMENT_API}?fullName=${name}`)
-	);
+	const response = await fetch(encodeURI(`${PARLIAMENT_API}?fullName=${name}`));
 	const jsonResponse = await response.json();
 	const { result = { items: [] } } = jsonResponse;
 	const { items = [] } = result;
@@ -38,9 +36,7 @@ export const flattenData = async members => {
 			const mpKey = getTailOfKey(recordIndex);
 			formattedMembers.push({
 				id: getTailOfKey(mpKey),
-				image: getThumbnailPortrait(
-					getTailOfKey(getValueFromKeyPair(recordData[MEMBER_IMAGE_KEY]))
-				),
+				image: getThumbnailPortrait(getTailOfKey(getValueFromKeyPair(recordData[MEMBER_IMAGE_KEY]))),
 				fullNameByForename: getValueFromKeyPair(recordData[FULLNAME_BY_FORENAME_KEY]),
 				fullNameBySurname: getValueFromKeyPair(recordData[FULLNAME_BY_SURNAME_KEY]),
 				familyName: getValueFromKeyPair(recordData[FAMILY_NAME_KEY]),

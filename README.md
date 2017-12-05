@@ -8,7 +8,7 @@ Live site: https://globalroo.github.io/uk-mps/
 
 ## Brief description
 
-A list of all UK-MPs stiched together from the excellent new beta parliament site https://beta.parliament.uk/ and the also amazing http://lda.data.parliament.uk which is used for additional meta as the endpoints on the beta site are not open yet.
+A list of all UK-MPs stiched together from the excellent new beta parliament site https://beta.parliament.uk/ and the also amazing http://lda.data.parliament.uk which is used for additional meta.
 
 Read the story about how all these images came about here: https://pds.blog.parliament.uk/2017/07/21/mp-official-portraits-open-source-images/
 
@@ -18,3 +18,5 @@ DISCLAIMER: This is VERY work in progress - literally Sunday evening in front of
 
 As there is no commonality other than names between the old and the new endpoints, I've had to use them (the names).
 Thankfully they seem to match exactly between sites.
+
+[Update 5 Dec] Added node module to process data from endpoints into the expected format for the client. Work in progress.

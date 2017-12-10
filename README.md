@@ -20,3 +20,4 @@ As there is no commonality other than names between the old and the new endpoint
 Thankfully they seem to match exactly between sites.
 
 [Update 5 Dec] Added node module to process data from endpoints into the expected format for the client. Work in progress.
+[Update 10 Dec] Added parser module, ready to process data from the newer endpoints.

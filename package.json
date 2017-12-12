@@ -6,6 +6,10 @@
   "private": false,
   "dependencies": {
     "axios": "0.17.1",
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-plugin-module-resolver": "3.0.0",
+    "babel-preset-env": "1.6.1",
     "gh-pages": "1.1.0",
     "prettier": "1.8.2",
     "react": "^16.2.0",
@@ -13,6 +17,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "test-parser": "babel-node server/basic-parser",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

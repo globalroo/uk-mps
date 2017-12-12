@@ -1,4 +1,4 @@
-const test = {
+export const test = {
 	"https://id.parliament.uk/0BhROnYP": {
 		"http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
 			{
@@ -1039,8 +1039,4 @@ const test = {
 			}
 		]
 	}
-};
-
-module.exports = {
-	test: test
 };

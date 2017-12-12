@@ -1,5 +1,4 @@
-const test = require("./test-data");
-
+import { test } from "server/test-data"
 const meaningfulFields = [
 	"D79B0BAC513C4A9A87C9D5AFF1FC632F",
 	"F31CBD81AD8343898B49DC65743F0BDF",

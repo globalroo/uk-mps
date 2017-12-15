@@ -16,12 +16,15 @@ exports[`Application tests Application is rendered as expected 1`] = `
       className="App-intro"
     >
       Back to project:
+       
       <a
         className="link"
         href="https://github.com/globalroo/uk-mps"
       >
         uk-mps
       </a>
+       
+      - work in progress for memory game.
     </p>
   </header>
   <div

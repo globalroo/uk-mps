@@ -1,1 +1,17 @@
 node_modules/
+config
+data
+public
+.editorconfig
+.env
+.eslintignore
+.eslintrc.json
+.gitignore
+.prettierrc
+LICENSE
+package-lock.json
+package.json
+README.md
+yarn.lock
+scripts
+src/registerServiceWorker.js

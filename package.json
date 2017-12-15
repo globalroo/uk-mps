@@ -62,7 +62,7 @@
     "predeploy": "yarn run build",
     "build": "node scripts/build.js",
     "lint": "eslint . --fix",
-    "prettier": "prettier --write 'src/**/*.js' && prettier --write 'test/**/*.js'",
+    "prettier": "prettier --write 'src/**/*.js' && prettier --write 'test/**/*.js' && yarn lint",
     "start": "node scripts/start.js",
     "test": "node scripts/test.js --env=jsdom",
     "testcov": "node scripts/test.js --env=jsdom --coverage && codecov",

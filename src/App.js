@@ -14,7 +14,8 @@ class App extends Component {
 						Back to project:{" "}
 						<a className="link" href="https://github.com/globalroo/uk-mps">
 							uk-mps
-						</a>
+						</a>{" "}
+						- work in progress for memory game.
 					</p>
 				</header>
 				<div className="ui space-around cards">

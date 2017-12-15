@@ -1,17 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .App-title {
@@ -22,52 +13,6 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.mp-image {
-	border-radius: 93px;
-}
-
-.member {
-	background: white;
-	margin-bottom: 2em;
-}
-
-.member a {
-	color: black;
-	text-decoration: none;
-}
-
-.member a:hover {
-	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
-}
-
-.member-info {
-	padding: 1.4em;
-}
-
-.member-info h2 {
-	margin-top: 0;
-	margin-bottom: .5em;
-	font-weight: bold;
-}
-
-.members-of-parliament {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.member {
-	flex: 1;
-	max-width: 200px;
-	padding-top:50px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
-.member-constituency {
-	color: darkRed;
+.ui.space-around.cards {
+	justify-content: space-around;
 }

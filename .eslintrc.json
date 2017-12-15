@@ -1,6 +1,6 @@
 {
 	"parser": "babel-eslint",
-	"parserOptions": {
+    "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
 	},
@@ -16,10 +16,16 @@
 		"beforeEach": false,
 		"afterEach": false,
 		"it": false,
-		"jest": false,
-		"setTimeout": false
+		"jest": false
 	},
-	"extends": "eslint:recommended",
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"react-app"
+	],
+	"plugins": [
+		"react"
+	],
     "rules": {
 		"arrow-parens": "error",
 		"arrow-spacing": "error",
@@ -48,6 +54,9 @@
 			"1tbs"
 		],
 		"no-unused-vars": "error",
-		"prefer-arrow-callback": "error"
+		"prefer-arrow-callback": "error",
+		"react/display-name": 0,
+		"react/jsx-uses-react": "error",
+    	"react/jsx-uses-vars": "error"
 	}
 }

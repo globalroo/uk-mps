@@ -1,4 +1,4 @@
-# uk-mps [![Build Status](https://travis-ci.org/globalroo/uk-mps.svg?branch=master)](https://travis-ci.org/globalroo/uk-mps)[![Dependency Status](https://dependencyci.com/github/globalroo/uk-mps/badge)](https://dependencyci.com/github/globalroo/uk-mps)[![codecov](https://codecov.io/gh/globalroo/uk-mps/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/uk-mps)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+# uk-mps [![Build Status](https://travis-ci.org/globalroo/uk-mps.svg?branch=master)](https://travis-ci.org/globalroo/uk-mps)[![Dependency Status](https://dependencyci.com/github/globalroo/uk-mps/badge?v1)](https://dependencyci.com/github/globalroo/uk-mps?v1)[![codecov](https://codecov.io/gh/globalroo/uk-mps/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/uk-mps)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ```sh
 npm install yarn -g

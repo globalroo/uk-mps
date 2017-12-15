@@ -11,14 +11,14 @@ class App extends Component {
 				<header className="App-header">
 					<h1 className="App-title">Members of Parliament</h1>
 					<p className="App-intro">
-						Back to project:
+						Back to project:{" "}
 						<a className="link" href="https://github.com/globalroo/uk-mps">
 							uk-mps
 						</a>
 					</p>
 				</header>
 				<div className="ui space-around cards">
-					{this.props.members.map((mp, ix) => {
+					{this.props.members.map((mp) => {
 						return <MPCard mp={mp} key={`${mp.id}_mp_card_key`} />;
 					})}
 				</div>

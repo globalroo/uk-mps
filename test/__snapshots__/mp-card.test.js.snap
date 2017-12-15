@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MPCard tests MPCard is rendered as expected 1`] = `
+<div
+  className="blue card card-overrides"
+>
+  <div
+    className="image"
+  >
+    <img
+      alt="Dr Dan Poulter MP"
+      src="images/404.jpeg"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Dr Dan Poulter MP
+    </div>
+    <div
+      className="meta"
+    >
+      Central Suffolk and North Ipswich
+    </div>
+    <div
+      className="description"
+    >
+      Parliamentary Under-Secretary (Department of Health)
+    </div>
+  </div>
+  <div
+    className="extra content"
+  >
+    <span
+      className="right floated"
+    >
+      <i
+        className="calendar icon"
+      />
+      May 2010
+    </span>
+    <span>
+      <i
+        className="id badge icon"
+      />
+      Conservative
+    </span>
+  </div>
+</div>
+`;

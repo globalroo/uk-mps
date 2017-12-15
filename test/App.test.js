@@ -4,14 +4,12 @@ import App from "src/App";
 import members from "data/processed.json";
 
 jest.mock("src/mp-card", () => ({
-	//eslint-disable-next-line
-	MPCard: ({ mp }) => (<div> mp.honorificName} </div>)
+	MPCard: ({ mp }) => <div>{mp.honorificName}</div> // eslint-disable-line
 }));
 
 describe("Application tests", () => {
 	test("Application is rendered as expected", () => {
 		const component = renderer.create(<App members={members} />);
 		expect(component.toJSON()).toMatchSnapshot();
-		//expect(650).toBe(650);
 	});
 });

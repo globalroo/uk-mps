@@ -16,7 +16,8 @@
 		"beforeEach": false,
 		"afterEach": false,
 		"it": false,
-		"jest": false
+		"jest": false,
+		"setTimeout": false
 	},
 	"extends": [
 		"eslint:recommended",
@@ -55,7 +56,6 @@
 		],
 		"no-unused-vars": "error",
 		"prefer-arrow-callback": "error",
-		"react/display-name": 0,
 		"react/jsx-uses-react": "error",
     	"react/jsx-uses-vars": "error"
 	}

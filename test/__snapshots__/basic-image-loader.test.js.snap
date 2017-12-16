@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasicImageLoader tests BasicImageLoader is rendered as expected 1`] = `
+<img
+  alt="404"
+  className="mp-image"
+  onError={[Function]}
+  onLoad={[Function]}
+  src="test.jpeg"
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+/>
+`;

@@ -5,11 +5,19 @@ exports[`MPCard tests MPCard is rendered as expected 1`] = `
   className="blue card card-overrides"
 >
   <div
-    className="image"
+    className="image image-container"
   >
     <img
       alt="Dr Dan Poulter MP"
-      src="images/404.jpeg"
+      className="mp-image"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="https://res.cloudinary.com/globalroo/image/twitter_name/w_300/drdanpoulter.jpeg"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
     />
   </div>
   <div

@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { format } from "date-fns";
+import { BasicImageLoader } from "src/basic-image-loader";
+
+const MISSING_IMAGE = "404";
 
 const partyColours = {
 	Conservative: "blue",
@@ -19,14 +22,24 @@ const partyColours = {
 
 export const getDate = (date) => format(date.split("+").shift(), "MMM YYYY");
 
+export const getBestAvailableImage = (availableImage, twitterImage) => {
+	let image = availableImage;
+	if (image.includes(MISSING_IMAGE)) {
+		if (twitterImage) {
+			image = twitterImage;
+		}
+	}
+	return image;
+};
 export const MPCard = ({ mp }) => {
 	const index = mp.partyName.split(" ").join("");
 	const color = partyColours[index];
 	const classes = `${color} card card-overrides`;
+	const availableImage = getBestAvailableImage(mp.localImage, mp.twitterImage);
 	return (
 		<div className={classes}>
-			<div className="image">
-				<img src={mp.localImage} alt={mp.honorificName} />
+			<div className="image image-container">
+				<BasicImageLoader src={availableImage} alt={mp.honorificName} />
 			</div>
 			<div className="content">
 				<div className="header">{mp.honorificName}</div>

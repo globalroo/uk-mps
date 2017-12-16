@@ -16,3 +16,14 @@
 .ui.space-around.cards {
 	justify-content: space-around;
 }
+
+.mp-image {
+	object-fit: cover;
+	object-position: top;
+	max-height: 290px;
+}
+
+.image {
+	background: url("404.jpeg") !important;
+	height:290px;
+}

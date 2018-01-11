@@ -2,7 +2,7 @@
 
 exports[`MPCard tests MPCard is rendered as expected 1`] = `
 <div
-  className="blue card card-overrides"
+  className="ui blue card card-overrides"
 >
   <div
     className="image image-container"
@@ -40,22 +40,24 @@ exports[`MPCard tests MPCard is rendered as expected 1`] = `
     </div>
   </div>
   <div
-    className="extra content"
+    className="extra-content content"
   >
-    <span
-      className="right floated"
+    <div
+      className="extra-content-cell mp-start-date"
     >
       <i
         className="calendar icon"
       />
       May 2010
-    </span>
-    <span>
+    </div>
+    <div
+      className="extra-content-cell mp-party-name"
+    >
       <i
         className="id badge icon"
       />
       Conservative
-    </span>
+    </div>
   </div>
 </div>
 `;

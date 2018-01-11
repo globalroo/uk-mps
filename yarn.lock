@@ -2529,6 +2529,10 @@ duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
+dynamics.js@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/dynamics.js/-/dynamics.js-1.1.5.tgz#b90bdc33605cefe652b8416e701f79bf6eefce32"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -3164,6 +3168,10 @@ follow-redirects@^1.2.5:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.2.6.tgz#4dcdc7e4ab3dd6765a97ff89c3b4c258117c79bf"
   dependencies:
     debug "^3.1.0"
+
+font-awesome@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -4769,6 +4777,10 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mobile-detect@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/mobile-detect/-/mobile-detect-1.4.1.tgz#f4b67c49bb84bf0437f72e3067deb1c60ad7b23c"
 
 ms@2.0.0:
   version "2.0.0"

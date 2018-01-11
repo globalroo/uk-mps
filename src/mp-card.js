@@ -31,10 +31,11 @@ export const getBestAvailableImage = (availableImage, twitterImage) => {
 	}
 	return image;
 };
+
 export const MPCard = ({ mp }) => {
 	const index = mp.partyName.split(" ").join("");
 	const color = partyColours[index];
-	const classes = `${color} card card-overrides`;
+	const classes = `ui ${color} card card-overrides`;
 	const availableImage = getBestAvailableImage(mp.localImage, mp.twitterImage);
 	return (
 		<div className={classes}>
@@ -46,15 +47,15 @@ export const MPCard = ({ mp }) => {
 				<div className="meta">{mp.constituencyGroupName}</div>
 				<div className="description">{mp.positionName}</div>
 			</div>
-			<div className="extra content">
-				<span className="right floated">
+			<div className="extra-content content">
+				<div className="extra-content-cell mp-start-date">
 					<i className="calendar icon" />
 					{getDate(mp.constituencyGroupStartDate)}
-				</span>
-				<span>
+				</div>
+				<div className="extra-content-cell mp-party-name">
 					<i className="id badge icon" />
 					{mp.partyName}
-				</span>
+				</div>
 			</div>
 		</div>
 	);

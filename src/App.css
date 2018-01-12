@@ -48,3 +48,17 @@
 .mp-start-date {
 	flex-grow:1;
 }
+
+.mp-animation-enclosure {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 50%;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 414px) {
+	.mp-animation-enclosure {
+		width: 100%;
+	}
+}

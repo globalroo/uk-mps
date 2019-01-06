@@ -9,9 +9,9 @@ public
 .gitignore
 .prettierrc
 LICENSE
-package-lock.json
-package.json
+
 README.md
 yarn.lock
 scripts
 src/registerServiceWorker.js
+dynamics.min.js

@@ -1,6 +1,6 @@
 import "src/card-stack/card-stack.css";
 
-import dynamics from "dynamics.js";
+import dynamics from "./dynamics.min";
 
 const CARD_ACTION = {
 	REJECT: "stack__item--reject",
@@ -45,9 +45,7 @@ export class CardStack {
 	}
 
 	getVisibleCardCount() {
-		return this.cardQueue.length <= this.options.visible
-			? this.cardQueue.length
-			: this.options.visible;
+		return this.cardQueue.length <= this.options.visible ? this.cardQueue.length : this.options.visible;
 	}
 
 	initialisePerspective() {
@@ -75,9 +73,9 @@ export class CardStack {
 		this.postAnimationObservers[action].observers.push(postAnimationCallback);
 		// Return unsubscribe method
 		return () => {
-			this.postAnimationAcceptObservers[action].observers = this.postAnimationAcceptObservers[
-				action
-			].observers.filter((fn) => fn !== postAnimationCallback);
+			this.postAnimationAcceptObservers[action].observers = this.postAnimationAcceptObservers[action].observers.filter(
+				(fn) => fn !== postAnimationCallback
+			);
 		};
 	}
 
@@ -145,10 +143,7 @@ export class CardStack {
 
 		this.addAnimationDecorations(item, cardAction);
 
-		setTimeout(
-			this.animateDeck.call(this, { preAnimation }),
-			this.options.stackItemsAnimationDelay
-		);
+		setTimeout(this.animateDeck.call(this, { preAnimation }), this.options.stackItemsAnimationDelay);
 	}
 
 	onFlingCardAnimationEnd = (event) => {
@@ -190,7 +185,6 @@ export class CardStack {
 	}
 
 	positionCardAt(item, position) {
-
 		const zIndex = parseInt(this.getVisibleCardCount() - position, 10);
 		const offset = position;
 		const translateZ = parseInt(-1 * this.options.cardSpacing * offset, 10);
@@ -200,16 +194,15 @@ export class CardStack {
 		item.style.pointerEvents = "auto";
 		item.style.zIndex = zIndex;
 
-		setTimeout( () => {
+		setTimeout(() => {
 			dynamics.animate(
 				item,
 				{
-					translateZ: translateZ,
+					translateZ: translateZ
 				},
 				this.options.stackItemsAnimation
 			);
-		},0);
-
+		}, 0);
 	}
 
 	getAnimationProps(preAnimation, ix, visibleCards) {
